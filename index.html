@@ -1,0 +1,41 @@
+<!--AERTS ANAIS-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- *** LINK *** -->
+     <link rel="stylesheet" href="style.css">
+    <!-- *** TITLE *** -->
+    <title>Aerts Anaïs</title>
+</head>
+<body>
+
+    <h1>A la Poursuite du nombre</h1>
+
+    <div class="container">
+        <div class="contain">
+            <div class="guessNumber">
+                <h3>Devinez un mot entre 1 et 100</h3>
+                <div class="number">
+                    <input type="number" name="number" id="number" min="0" max="100">
+                    <button type="submit">Devinez</button>
+                </div>
+                <p id="text"></p>
+                <p id="essais">Vous avez <span>10</span> essais.</p>
+            </div>
+            <div class="guessValeur">
+                <h3>Récapitulatif des valeurs</h3>
+                <table>
+                    <tr>
+                        <th colspan="2">Valeurs tentées</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <!-- *** SCRIPT *** -->
+     <script src="script.js"></script>
+</body>
+</html>
