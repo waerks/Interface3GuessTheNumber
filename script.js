@@ -37,12 +37,7 @@ function playAgain(){
     guessNumberDIV.append(btnAgain);
 
     btnAgain.addEventListener('click', () => {
-        // Supprimer tous les éléments du tableau
-        const tableDelete = document.querySelectorAll("table tbody tr:not(:first-child)");
-        tableDelete.forEach(element => {
-            element.remove();
-        });
-
+        // On relance le tout
         location.reload();
 
     })
